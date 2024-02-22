@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charge Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+
+</head>
+<body>
+    <div class="form-box">
+        <h1>Ride</h1>
+        <h2>Always the ride you want</h2>
+        <h3>Request a ride, hop in, and go</h3>
+
+        <form action="/calculate_charge" method="POST">
+            <div class="input-box">
+                <i class="fa fa-map-marker"></i>
+                <input type="text" name="start_location" placeholder="Enter Location" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa fa-map-marker"></i>
+                <input type="text" name="end_location" placeholder="Enter Destination" required>
+            </div>
+
+            <div class="input-box">
+                <i class="fa fa-car"></i>
+                <select name="vehicle_type"  required>
+                    <option disabled selected value="0">--Choose a Vechicle--</option>
+                    <option value="auto">Auto</option>
+                    <option value="car">Car</option>
+                    <option value="van">Van</option>
+                    <option value="kdh">KDH</option>
+                </select>
+            </div>
+
+            <button type="submit">See Price</button>
+        </form>
+    </div>
+</body>
+</html>

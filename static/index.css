@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(BGP4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.form-box {
+    width: 400px;
+    background-image: url(BGP1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 16%;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    padding: 80px 0;
+    color: rgb(147, 6, 6);
+    box-shadow: 0 0 20px rgba(12, 12, 12, 0.9);
+}
+
+
+
+
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(189, 7, 162);
+}
+
+.input-box {
+    margin: 20px auto;
+    width: 80%;
+    border-bottom: 1px solid rgb(241, 7, 171);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.input-box input, .input-box select {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(8, 16, 239);
+}
+
+.input-box i {
+    margin-right: 8px;
+}
+
+.input-box select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+::placeholder {
+    color: rgb(11, 59, 2);
+}
+
+button {
+    margin: 30px auto 20px;
+    width: 120px;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid rgb(119, 102, 5);
+    cursor: pointer;
+    background: rgb(218, 5, 5);
+    color: rgb(24, 195, 18);
+    font-size: 16px;
+    border-radius: 20px;
+}

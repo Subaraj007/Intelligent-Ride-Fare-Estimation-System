@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(BGP8.jpg);
+    background-size: cover;
+    background-position: center center; /* Center the background image both horizontally and vertically */
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue; /* Set text color to blue */
+    
+    height: 80vh; /* Set the height to 100% of the viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+
+h1 {
+    text-align: right;
+    margin: 20px 20% 20px 0;
+    margin-top: 50px ; /* Adjust top margin as needed */
+    color: #3706d6; /* Set heading color to a bright yellow */
+}
+
+
+
+p {
+    text-align: right;
+    margin: 20px 20% 20px 0;
+    color: #8a2804;
+}
+
+a {
+    color: #04a223; /* Set link color to a bright yellow */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles can be added as needed */
